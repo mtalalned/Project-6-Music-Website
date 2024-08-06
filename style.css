@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'roboto medium';
+}
+@font-face {
+    font-family: 'roboto medium';
+    src: url(./Fonts/Roboto-Medium.ttf);
+}
+
+/* NAV bar started */
+.nav-main-div {
+    padding: 10px 10%;
+    background-color: #270082;
+}
+.nav-sub-main-div > a{
+    /* border: 1px solid purple; */
+}
+ul > li {
+    list-style-type: none;
+}
+/* NAV bar ended */
+
+/* myTunes Banner Started */
+.banner-main-div {
+    background: url(./Assets/hero_image.png);
+    height: 130vh;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+/* myTunes Banner Ended */
