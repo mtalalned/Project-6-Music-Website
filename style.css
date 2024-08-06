@@ -13,6 +13,10 @@ body {
     font-family: 'roboto medium';
     src: url(./Fonts/Roboto-Medium.ttf);
 }
+@font-face {
+    font-family: 'roboto light';
+    src: url(./Fonts/Roboto-Light.ttf);
+}
 
 /* NAV bar started */
 .nav-main-div {
@@ -30,9 +34,40 @@ ul > li {
 /* myTunes Banner Started */
 .banner-main-div {
     background: url(./Assets/hero_image.png);
-    height: 130vh;
+    height: 140vh;
     background-size: 100% 100%;
     background-position: center;
 }
-
+h2 {
+    font-size: 7.25rem;
+}
+.banner-main-div > :nth-child(2) {
+    /* font-family: 'roboto medium'; */
+}
+.banner-main-div > :nth-child(3) {
+    font-family: 'roboto light';
+    /* border: 1px solid white; */
+    width: 60%;
+}
 /* myTunes Banner Ended */
+
+/* Music started */
+.music-main-div {
+    background-color: #281154;
+    padding: 45px 0px;
+}
+.music-main-div > h3 {
+    font-size: 4rem;
+}
+.music-main-div :nth-child(3) {
+    width: 70%;
+}
+.music-main-div > a {
+    font-family: 'roboto light';
+    background-color: #dc0000;
+}
+.music-main-div :nth-child(5) {
+    font-family: 'roboto light';
+    /* background-color: #dc0000; */
+}
+/* Musix ended */
