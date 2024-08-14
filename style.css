@@ -18,15 +18,20 @@ body {
     src: url(./Fonts/Roboto-Light.ttf);
 }
 
+
+
 /* NAV bar started */
 .nav-main-div {
     padding: 10px 10%;
     background-color: #270082;
+    border: 2px solid gold;
 }
-ul > li {
+.nav-main-div > ul > li {
     list-style-type: none;
 }
 /* NAV bar ended */
+
+
 
 /* myTunes Banner Started */
 .banner-main-div {
@@ -34,8 +39,9 @@ ul > li {
     height: 140vh;
     background-size: 100% 100%;
     background-position: center;
+    border: 2px solid purple;
 }
-h2 {
+.banner-main-div > div > h2 {
     font-size: 7.25rem;
 }
 .banner-main-div > :nth-child(3) {
@@ -44,10 +50,14 @@ h2 {
 }
 /* myTunes Banner Ended */
 
+
+
+
 /* Music started */
 .music-main-div {
     background-color: #281154;
     padding: 45px 0px;
+    border: 2px solid salmon;
 }
 .music-main-div > h3 {
     font-size: 4rem;
@@ -64,16 +74,27 @@ h2 {
 }
 /* Music ended */
 
+
+
+
 /* Picture No 1 Started */
 .picture-1-div {
-    background-image: linear-gradient(#281154 50%,#ffff 50%);
+    background-image: linear-gradient(#281154 50%,#f9f6ff 50%);
+    border: 2px solid red;
 }
 .picture-1-div > img {
     width: 65%;
 }
 /* Picture No 1 Ended */
 
+
+
+
 /* Movie and TV collection started */
+.movie-main-div {
+    background-color: #f9f6ff;
+    border: 2px solid brown;
+}
 .movie-main-div p:nth-of-type(1){
     font-weight: 600;
 }
@@ -86,15 +107,73 @@ h2 {
 }
 /* Movie and TV collection ended */
 
+
+
+
+/* Entertainment Started */
+.entertainment-main-div {
+    background-image: url(./Assets/video.png);
+    background-size: 100% 100%;
+    height: 100vh;
+    border: 2px solid purple;
+}
+.entertainment-sub-main-div {
+    margin-top: 200px;
+}
+/* Entertainment Ended */
+
+
+
+/* Picture No 2 Started */
+.picture-2-div {
+    background-color: #f9f6ff;
+    border: 2px solid green;
+}
+/* Picture No 2 ended */
+
+
+
+
+/* Gift Cards Started */
+.gift-main-div {
+    padding: 100px 30px; 
+    background-color: #f9f6ff;
+    border: 2px solid red;
+}
+.gift-sub-main-div {
+    width: 40%;
+}
+.gift-sub-main-div > p {
+    font-family: 'roboto light';
+}
+hr {
+    margin-top: -5px;
+}
+.gift-sub-main-div > a {
+    font-family: 'roboto light';
+    background-color: #37008e;
+}
+
+
+/* GIft Cards Ended */
+
+
+
 @media (max-width: 1000px) {
     .banner-main-div {
         height: 110vh;
+    }
+    .entertainment-sub-main-div {
+        margin-top: 120px;
     }
 }
 
 @media (max-width: 800px) {
     .banner-main-div {
         height: 100vh;
+    }
+    .entertainment-sub-main-div {
+        margin-top: 100px;
     }
 }
 
@@ -105,6 +184,9 @@ h2 {
     .banner-main-div {
         height: 80vh;
     }
+    .entertainment-main-div {
+        height: 80vh;
+    }
 
 }
 
@@ -112,11 +194,17 @@ h2 {
     .banner-main-div {
         height: 60vh;
     }
+    .entertainment-main-div {
+        height: 60vh;
+    }
+    .entertainment-sub-main-div {
+        margin-top: 60px;
+    }
 }
 
 @media (max-width: 400px) {
     html {
-        font-size: 25%;
+        font-size: 30%;
     }
     .banner-main-div {
         height: 40vh;
