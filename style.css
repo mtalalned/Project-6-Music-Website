@@ -23,9 +23,6 @@ body {
     padding: 10px 10%;
     background-color: #270082;
 }
-.nav-sub-main-div > a{
-    /* border: 1px solid purple; */
-}
 ul > li {
     list-style-type: none;
 }
@@ -41,12 +38,8 @@ ul > li {
 h2 {
     font-size: 7.25rem;
 }
-.banner-main-div > :nth-child(2) {
-    /* font-family: 'roboto medium'; */
-}
 .banner-main-div > :nth-child(3) {
     font-family: 'roboto light';
-    /* border: 1px solid white; */
     width: 60%;
 }
 /* myTunes Banner Ended */
@@ -68,6 +61,74 @@ h2 {
 }
 .music-main-div :nth-child(5) {
     font-family: 'roboto light';
-    /* background-color: #dc0000; */
 }
-/* Musix ended */
+/* Music ended */
+
+/* Picture No 1 Started */
+.picture-1-div {
+    background-image: linear-gradient(#281154 50%,#ffff 50%);
+}
+.picture-1-div > img {
+    width: 65%;
+}
+/* Picture No 1 Ended */
+
+/* Movie and TV collection started */
+.movie-main-div p:nth-of-type(1){
+    font-weight: 600;
+}
+.movie-main-div p:nth-of-type(2){
+    font-family: 'roboto light';
+}
+.movie-main-div > a {
+    font-family: 'roboto light';
+    background-color: #37008e;
+}
+/* Movie and TV collection ended */
+
+@media (max-width: 1000px) {
+    .banner-main-div {
+        height: 110vh;
+    }
+}
+
+@media (max-width: 800px) {
+    .banner-main-div {
+        height: 100vh;
+    }
+}
+
+@media (max-width: 600px) {
+    html {
+        font-size: 40%;
+    }
+    .banner-main-div {
+        height: 80vh;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .banner-main-div {
+        height: 60vh;
+    }
+}
+
+@media (max-width: 400px) {
+    html {
+        font-size: 25%;
+    }
+    .banner-main-div {
+        height: 40vh;
+    }
+    .music-main-div {
+        padding: 25px;
+    }
+}
+
+
+@media (max-width: 325px) {
+    .banner-main-div {
+        height: 30vh;
+    }
+}
