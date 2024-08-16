@@ -8,6 +8,7 @@ html {
 }
 body {
     font-family: 'roboto medium';
+    background-color: #f9f6ff;
 }
 @font-face {
     font-family: 'roboto medium';
@@ -24,7 +25,6 @@ body {
 .nav-main-div {
     padding: 10px 10%;
     background-color: #270082;
-    border: 2px solid gold;
 }
 .nav-main-div > ul > li {
     list-style-type: none;
@@ -39,7 +39,6 @@ body {
     height: 140vh;
     background-size: 100% 100%;
     background-position: center;
-    border: 2px solid purple;
 }
 .banner-main-div > div > h2 {
     font-size: 7.25rem;
@@ -57,7 +56,6 @@ body {
 .music-main-div {
     background-color: #281154;
     padding: 45px 0px;
-    border: 2px solid salmon;
 }
 .music-main-div > h3 {
     font-size: 4rem;
@@ -80,7 +78,6 @@ body {
 /* Picture No 1 Started */
 .picture-1-div {
     background-image: linear-gradient(#281154 50%,#f9f6ff 50%);
-    border: 2px solid red;
 }
 .picture-1-div > img {
     width: 65%;
@@ -91,10 +88,6 @@ body {
 
 
 /* Movie and TV collection started */
-.movie-main-div {
-    background-color: #f9f6ff;
-    border: 2px solid brown;
-}
 .movie-main-div p:nth-of-type(1){
     font-weight: 600;
 }
@@ -115,7 +108,6 @@ body {
     background-image: url(./Assets/video.png);
     background-size: 100% 100%;
     height: 100vh;
-    border: 2px solid purple;
 }
 .entertainment-sub-main-div {
     margin-top: 200px;
@@ -124,21 +116,10 @@ body {
 
 
 
-/* Picture No 2 Started */
-.picture-2-div {
-    background-color: #f9f6ff;
-    border: 2px solid green;
-}
-/* Picture No 2 ended */
-
-
-
 
 /* Gift Cards Started */
 .gift-main-div {
     padding: 100px 3%; 
-    background-color: #f9f6ff;
-    border: 2px solid red;
 }
 .gift-sub-main-div {
     flex-basis: 45%;
@@ -170,6 +151,12 @@ hr {
     flex-basis: 16%;
 }
 .footer-sub-main-div > a{
+    font-family: 'roboto light';
+}
+.footer-end-div {
+    background-color: #270082;
+}
+h4 {
     font-family: 'roboto light';
 }
 /* footer Ended */
@@ -215,6 +202,9 @@ hr {
         text-align: center;
         font-size: 1.5rem;
     }
+    .footer-sub-main-div {
+        flex-basis: 20%;
+    }
 }
 
 @media (max-width: 600px) {
@@ -234,14 +224,17 @@ hr {
         font-size: 4rem;
     }
     .gift-sub-main-div > p {
-        /* text-align: center; */
         font-size: 2rem;
     }
     .gift-sub-main-div > a {
-        /* text-align: center; */
         font-size: 2rem;
     }
-
+    .footer-main-div {
+        padding: 25px 0px;
+    }
+    .footer-sub-main-div {
+        flex-basis: 45%;
+    }
 }
 
 @media (max-width: 500px) {
