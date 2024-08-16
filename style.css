@@ -265,6 +265,12 @@ h4 {
     .entertainment-main-div {
         height: 50vh;
     }
+    .footer-sub-main-div > h2 {
+        font-size: 3rem !important;
+    }
+    .footer-sub-main-div > a {
+        font-size: 1.75rem !important;
+    }
 }
 
 
