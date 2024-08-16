@@ -158,11 +158,21 @@ hr {
     background-color: #37008e;
     font-size: 1.25vw;
 }
-
-
 /* GIft Cards Ended */
 
 
+/* footer started */
+.footer-main-div {
+    background-color: #1b0058;
+    padding: 55px 0px;
+}
+.footer-sub-main-div {
+    flex-basis: 16%;
+}
+.footer-sub-main-div > a{
+    font-family: 'roboto light';
+}
+/* footer Ended */
 
 @media (max-width: 1000px) {
     .banner-main-div {
@@ -184,11 +194,15 @@ hr {
         margin-top: 100px;
     }
     .gift-main-div {
-        padding: 40px 3%; 
+        padding: 40px 10%; 
+    }
+    .gift-sub-main-div > img{
+        width: 65% !important; 
     }
     .gift-sub-main-div {
-        flex-basis: 65%;
+        flex-basis: 100%;
         align-items: center !important;
+        justify-content: center !important;
     }
     .gift-sub-main-div > h3 {
         font-size: 3rem;
@@ -199,6 +213,7 @@ hr {
     }
     .gift-sub-main-div > a {
         text-align: center;
+        font-size: 1.5rem;
     }
 }
 
@@ -214,6 +229,17 @@ hr {
     }
     .gift-main-div {
         padding: 50px 3%; 
+    }
+    .gift-sub-main-div > h3 {
+        font-size: 4rem;
+    }
+    .gift-sub-main-div > p {
+        /* text-align: center; */
+        font-size: 2rem;
+    }
+    .gift-sub-main-div > a {
+        /* text-align: center; */
+        font-size: 2rem;
     }
 
 }
@@ -267,5 +293,8 @@ hr {
     }
     .entertainment-sub-main-div {
         margin-top: 40px;
+    }
+    .gift-main-div {
+        padding: 25px 5%; 
     }
 }
